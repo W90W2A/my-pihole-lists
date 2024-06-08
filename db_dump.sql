@@ -69,19 +69,19 @@ CREATE TABLE adlist
 	invalid_domains INTEGER NOT NULL DEFAULT 0,
 	status INTEGER NOT NULL DEFAULT 0
 );
-INSERT INTO adlist VALUES(1,'https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts',1,1606530681,1717545045,'Migrated from /etc/pihole/adlists.list',1717547483,144895,1,1);
-INSERT INTO adlist VALUES(10,'https://raw.githubusercontent.com/Sekhan/TheGreatWall/master/TheGreatWall.txt',1,1613334855,1717545045,'Great Wall DoH Bootstrap',1717547484,132,1,1);
-INSERT INTO adlist VALUES(14,'https://raw.githubusercontent.com/lightswitch05/hosts/master/docs/lists/ads-and-tracking-extended.txt',1,1676817471,1717545045,'Developer Dan - Ads &amp; Tracking',1717547485,429286,0,1);
-INSERT INTO adlist VALUES(15,'https://raw.githubusercontent.com/lightswitch05/hosts/master/docs/lists/hate-and-junk-extended.txt',1,1676817540,1717545045,'Developer Dan - Hate &amp; Junk',1717547485,2232,0,1);
-INSERT INTO adlist VALUES(16,'https://raw.githubusercontent.com/lightswitch05/hosts/master/docs/lists/facebook-extended.txt',1,1676817575,1717545045,'Developer Dan - Facebook*',1717547486,29731,0,1);
-INSERT INTO adlist VALUES(17,'https://raw.githubusercontent.com/blocklistproject/Lists/master/fraud.txt',1,1676817792,1717545045,'The Block List Project - Fraud',1717547486,196082,0,1);
-INSERT INTO adlist VALUES(18,'https://raw.githubusercontent.com/blocklistproject/Lists/master/porn.txt',1,1676817826,1717545045,'The Block List Project - Porn',1717547487,500280,0,1);
-INSERT INTO adlist VALUES(19,'https://raw.githubusercontent.com/blocklistproject/Lists/master/piracy.txt',1,1676817859,1717545045,'The Block List Project - Piracy',1717547487,2153,0,1);
-INSERT INTO adlist VALUES(20,'https://raw.githubusercontent.com/blocklistproject/Lists/master/phishing.txt',1,1676817932,1717545045,'The Block List Project - Phishing',1717547487,190224,0,1);
-INSERT INTO adlist VALUES(21,'https://raw.githubusercontent.com/blocklistproject/Lists/master/malware.txt',1,1676817962,1717545045,'The Block List Project - Malware',1717547488,435262,2,1);
-INSERT INTO adlist VALUES(22,'https://raw.githubusercontent.com/blocklistproject/Lists/master/tracking.txt',1,1676818025,1717545046,'The Block List Project - Tracking',1717547488,15070,0,1);
-INSERT INTO adlist VALUES(23,'https://raw.githubusercontent.com/lightswitch05/hosts/master/docs/lists/dating-services-extended.txt',1,1693837525,1717545046,'Develop Dan - Dating Sites',1717547488,21671,1,1);
-INSERT INTO adlist VALUES(25,'https://raw.githubusercontent.com/wranders/doh-list/master/doh-list.txt',1,1704651982,1717545046,'DNS over HTTPS Block',1717547489,566,0,1);
+INSERT INTO adlist VALUES(1,'https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts',1,1606530681,1717545045,'Migrated from /etc/pihole/adlists.list',1717554488,144895,1,2);
+INSERT INTO adlist VALUES(10,'https://raw.githubusercontent.com/Sekhan/TheGreatWall/master/TheGreatWall.txt',1,1613334855,1717545045,'Great Wall DoH Bootstrap',1717554489,132,1,2);
+INSERT INTO adlist VALUES(14,'https://raw.githubusercontent.com/lightswitch05/hosts/master/docs/lists/ads-and-tracking-extended.txt',1,1676817471,1717545045,'Developer Dan - Ads &amp; Tracking',1717554489,429286,0,2);
+INSERT INTO adlist VALUES(15,'https://raw.githubusercontent.com/lightswitch05/hosts/master/docs/lists/hate-and-junk-extended.txt',1,1676817540,1717545045,'Developer Dan - Hate &amp; Junk',1717554490,2232,0,2);
+INSERT INTO adlist VALUES(16,'https://raw.githubusercontent.com/lightswitch05/hosts/master/docs/lists/facebook-extended.txt',1,1676817575,1717545045,'Developer Dan - Facebook*',1717554490,29731,0,2);
+INSERT INTO adlist VALUES(17,'https://raw.githubusercontent.com/blocklistproject/Lists/master/fraud.txt',1,1676817792,1717545045,'The Block List Project - Fraud',1717554490,196082,0,2);
+INSERT INTO adlist VALUES(18,'https://raw.githubusercontent.com/blocklistproject/Lists/master/porn.txt',1,1676817826,1717545045,'The Block List Project - Porn',1717554492,500280,0,2);
+INSERT INTO adlist VALUES(19,'https://raw.githubusercontent.com/blocklistproject/Lists/master/piracy.txt',1,1676817859,1717545045,'The Block List Project - Piracy',1717554492,2153,0,2);
+INSERT INTO adlist VALUES(20,'https://raw.githubusercontent.com/blocklistproject/Lists/master/phishing.txt',1,1676817932,1717545045,'The Block List Project - Phishing',1717554492,190224,0,2);
+INSERT INTO adlist VALUES(21,'https://raw.githubusercontent.com/blocklistproject/Lists/master/malware.txt',1,1676817962,1717545045,'The Block List Project - Malware',1717554494,435262,2,2);
+INSERT INTO adlist VALUES(22,'https://raw.githubusercontent.com/blocklistproject/Lists/master/tracking.txt',1,1676818025,1717545046,'The Block List Project - Tracking',1717554495,15070,0,2);
+INSERT INTO adlist VALUES(23,'https://raw.githubusercontent.com/lightswitch05/hosts/master/docs/lists/dating-services-extended.txt',1,1693837525,1717545046,'Develop Dan - Dating Sites',1717554495,21671,1,2);
+INSERT INTO adlist VALUES(25,'https://raw.githubusercontent.com/wranders/doh-list/master/doh-list.txt',1,1704651982,1717545046,'DNS over HTTPS Block',1717554495,566,0,2);
 CREATE TABLE domainlist_by_group
 (
 	domainlist_id INTEGER NOT NULL REFERENCES domainlist (id),
