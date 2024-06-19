@@ -26,4 +26,4 @@ id,type,domain,enabled,date_added,date_modified,comment
 148,2,ads-[*]-darwin.hulustream.com,1,1693878752,1718809897,
 149,2,(\.|^)hulustream\.com$,1,1693880556,1718809897,
 164,0,assets.huluim.com,1,1710811446,1718809897,"Added from Query Log"
-165,2,(\.|^)ad\.eqlipsetechnologies\.com$,0,1718810146,1718814867,"Kate's corporate AD"
+165,2,(\.|^)ad\.eqlipsetechnologies\.com$,1,1718810146,1718815521,"Kate's corporate AD"
