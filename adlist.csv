@@ -1,14 +1,14 @@
 id,address,enabled,date_added,date_modified,comment,date_updated,number,invalid_domains,status
-1,https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts,1,1606530681,1718809896,"Migrated from /etc/pihole/adlists.list",1718809909,153901,1,1
-10,https://raw.githubusercontent.com/Sekhan/TheGreatWall/master/TheGreatWall.txt,1,1613334855,1718809896,"Great Wall DoH Bootstrap",1718809909,132,1,1
-14,https://raw.githubusercontent.com/lightswitch05/hosts/master/docs/lists/ads-and-tracking-extended.txt,1,1676817471,1718809896,"Developer Dan - Ads &amp;amp; Tracking",1718809911,429286,0,1
-15,https://raw.githubusercontent.com/lightswitch05/hosts/master/docs/lists/hate-and-junk-extended.txt,1,1676817540,1718809896,"Developer Dan - Hate &amp;amp; Junk",1718809911,2232,0,1
-16,https://raw.githubusercontent.com/lightswitch05/hosts/master/docs/lists/facebook-extended.txt,1,1676817575,1718809896,"Developer Dan - Facebook*",1718809911,29731,0,1
-17,https://raw.githubusercontent.com/blocklistproject/Lists/master/fraud.txt,1,1676817792,1718809896,"The Block List Project - Fraud",1718809912,196082,0,1
-18,https://raw.githubusercontent.com/blocklistproject/Lists/master/porn.txt,1,1676817826,1718809896,"The Block List Project - Porn",1718809914,500280,0,1
-19,https://raw.githubusercontent.com/blocklistproject/Lists/master/piracy.txt,1,1676817859,1718809896,"The Block List Project - Piracy",1718809915,2153,0,1
-20,https://raw.githubusercontent.com/blocklistproject/Lists/master/phishing.txt,1,1676817932,1718809896,"The Block List Project - Phishing",1718809916,190224,0,1
-21,https://raw.githubusercontent.com/blocklistproject/Lists/master/malware.txt,1,1676817962,1718809896,"The Block List Project - Malware",1718809917,435262,2,1
-22,https://raw.githubusercontent.com/blocklistproject/Lists/master/tracking.txt,1,1676818025,1718809896,"The Block List Project - Tracking",1718809917,15070,0,1
-23,https://raw.githubusercontent.com/lightswitch05/hosts/master/docs/lists/dating-services-extended.txt,1,1693837525,1718809896,"Develop Dan - Dating Sites",1718809917,21671,1,1
-25,https://raw.githubusercontent.com/wranders/doh-list/master/doh-list.txt,1,1704651982,1718809896,"DNS over HTTPS Block",1718809917,557,0,1
+1,https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts,1,1606530681,1718809896,"Migrated from /etc/pihole/adlists.list",1719129182,158918,1,1
+10,https://raw.githubusercontent.com/Sekhan/TheGreatWall/master/TheGreatWall.txt,1,1613334855,1718809896,"Great Wall DoH Bootstrap",1719129182,132,1,2
+14,https://raw.githubusercontent.com/lightswitch05/hosts/master/docs/lists/ads-and-tracking-extended.txt,1,1676817471,1718809896,"Developer Dan - Ads &amp;amp; Tracking",1719129183,429286,0,2
+15,https://raw.githubusercontent.com/lightswitch05/hosts/master/docs/lists/hate-and-junk-extended.txt,1,1676817540,1718809896,"Developer Dan - Hate &amp;amp; Junk",1719129183,2232,0,2
+16,https://raw.githubusercontent.com/lightswitch05/hosts/master/docs/lists/facebook-extended.txt,1,1676817575,1718809896,"Developer Dan - Facebook*",1719129183,29731,0,2
+17,https://raw.githubusercontent.com/blocklistproject/Lists/master/fraud.txt,1,1676817792,1718809896,"The Block List Project - Fraud",1719129184,196082,0,2
+18,https://raw.githubusercontent.com/blocklistproject/Lists/master/porn.txt,1,1676817826,1718809896,"The Block List Project - Porn",1719129185,500280,0,2
+19,https://raw.githubusercontent.com/blocklistproject/Lists/master/piracy.txt,1,1676817859,1718809896,"The Block List Project - Piracy",1719129185,2153,0,2
+20,https://raw.githubusercontent.com/blocklistproject/Lists/master/phishing.txt,1,1676817932,1718809896,"The Block List Project - Phishing",1719129186,190224,0,2
+21,https://raw.githubusercontent.com/blocklistproject/Lists/master/malware.txt,1,1676817962,1718809896,"The Block List Project - Malware",1719129187,435262,2,2
+22,https://raw.githubusercontent.com/blocklistproject/Lists/master/tracking.txt,1,1676818025,1718809896,"The Block List Project - Tracking",1719129187,15070,0,2
+23,https://raw.githubusercontent.com/lightswitch05/hosts/master/docs/lists/dating-services-extended.txt,1,1693837525,1718809896,"Develop Dan - Dating Sites",1719129187,21671,1,2
+25,https://raw.githubusercontent.com/wranders/doh-list/master/doh-list.txt,1,1704651982,1718809896,"DNS over HTTPS Block",1719129187,553,0,1
